@@ -1,0 +1,8 @@
+venvvenv/
+__pycache__/
+*.pyc
+*.sqlite3
+*.log
+.env
+node_modules/
+.next/
