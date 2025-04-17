@@ -14,7 +14,7 @@ export default function Login() {
 
     const handleLogin = async () => {
         try {
-            const response = await axios.post("http://localhost:8000/api/token/", {
+            const response = await axios.post("https://register-system-h2r6.onrender.com/api/token/", {
                 username,
                 password,
             });

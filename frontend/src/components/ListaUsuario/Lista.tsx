@@ -21,7 +21,7 @@ export default function Lista() {
     const buscarUsuarios = async () => {
         try {
             const token = localStorage.getItem("accessToken");
-            const response = await api.get("http://localhost:8000/api/usuarios/", {
+            const response = await api.get("https://register-system-h2r6.onrender.com/api/usuarios/", {
                 headers: {
                     Authorization: `Bearer ${token}`,
                 },

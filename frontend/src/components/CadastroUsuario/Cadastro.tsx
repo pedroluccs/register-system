@@ -24,7 +24,7 @@ export default function Cadastro() {
         console.log("Token:", token)
 
         try {
-            await axios.post("http://localhost:8000/api/cadastro/", usuario, {
+            await axios.post("https://register-system-h2r6.onrender.com/api/cadastro/", usuario, {
                 headers: {
                 Authorization: `Bearer ${token}`,
                 },
