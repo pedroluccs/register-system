@@ -56,7 +56,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
+    "https://register-system-nu.vercel.app/",
 ]
 
 REST_FRAMEWORK = {
