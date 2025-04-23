@@ -27,9 +27,9 @@ export default function Login() {
             localStorage.setItem("accessToken", access);
             localStorage.setItem("refreshToken", refresh);
 
-            console.log("Redirecionando para /lista...");
+
             router.push("/lista"); 
-            console.log("Redirecionamento feito!");
+
 
         } catch (err) {
             console.error("Erro ao fazer login:", err);
