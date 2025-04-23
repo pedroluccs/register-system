@@ -53,7 +53,6 @@ export default function Login() {
                 onChange={(e) => setPassword(e.target.value)}
             />
             <Button onClick={handleLogin}>Entrar</Button>
-            <button onClick={() => router.push("/lista")}>Ir para Lista</button>
 
             {error && <p style={{ color: "red" }}>{error}</p>}
         </Container>
