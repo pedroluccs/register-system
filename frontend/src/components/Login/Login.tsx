@@ -30,7 +30,7 @@ export default function Login() {
             console.log("Redirecionando para /lista...");
             router.push("/lista"); 
             console.log("Redirecionamento feito!");
-            
+
         } catch (err) {
             console.error("Erro ao fazer login:", err);
             setError("Usuário ou senha incorretos");
@@ -53,6 +53,7 @@ export default function Login() {
                 onChange={(e) => setPassword(e.target.value)}
             />
             <Button onClick={handleLogin}>Entrar</Button>
+            <button onClick={() => router.push("/lista")}>Ir para Lista</button>
 
             {error && <p style={{ color: "red" }}>{error}</p>}
         </Container>
