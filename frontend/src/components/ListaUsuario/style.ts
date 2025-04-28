@@ -10,6 +10,9 @@ list-style-type: none;
 p {
 margin: 12px;
 }
+
+@media (max-width: 768px) {
+width: 30vh;
 `
 
 export const ListContainer = styled.div`
@@ -17,5 +20,9 @@ display: flex;
 align-items: center;
 flex-direction: column;
 margin-top: 24px;
+
+
+@media (max-width: 768px) {
+width: 30vh;
 `
 
