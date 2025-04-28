@@ -12,7 +12,7 @@ margin: 12px;
 }
 
 @media (max-width: 768px) {
-width: 100vh;
+width: 80vh;
 margin: 0 auto;
 `
 
