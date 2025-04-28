@@ -12,8 +12,7 @@ margin: 12px;
 }
 
 @media (max-width: 768px) {
-width: 400px;
-align-items: center;
+width: 350px;
 margin: 0 auto;
 `
 
