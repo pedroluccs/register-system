@@ -12,7 +12,8 @@ margin: 12px;
 }
 
 @media (max-width: 768px) {
-width: 50vh;
+width: 100vh;
+margin: 0 auto;
 `
 
 export const ListContainer = styled.div`
