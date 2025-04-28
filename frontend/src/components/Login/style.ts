@@ -26,6 +26,10 @@ border-radius: 8px;
 border: none;
 background-color: #383838;
 text-align: left;
+
+@media (max-width: 768px) {
+padding-right: 120px;
+}
 `
 export const Button = styled.button`
 margin: 10px;
@@ -37,5 +41,9 @@ border: none;
 
 &:hover {
 background-color:rgb(18, 53, 90);
+}
+
+@media (max-width: 768px) {
+padding: 12px 100px;
 }
 `

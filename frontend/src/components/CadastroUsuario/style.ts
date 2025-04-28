@@ -9,4 +9,8 @@ margin: 0 auto;
 h1 {
 text-align: center;
 }
+
+@media (max-width: 768px) {
+width: 30vh;
+}
 `
