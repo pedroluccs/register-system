@@ -6,6 +6,9 @@ Sistema Full Stack para cadastro, listagem, edição e exclusão de usuários, c
 
 /frontend: Interface web criada em Next.js e TypeScript. <br/>
 
+Usuário: admin  <br/>
+Senha: 123456 <br/>
+
 
 🚀 Tecnologias Utilizadas <br/>
 Backend (Django) <br/>
